@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>满是流言的留言板╰(￣▽￣)╮</title>
+</head>
+
+<body>
+<h2 align="center"><strong>流言留言板╮(╯▽╰)╭</strong></h2>
+<form enctype="multipart/form-data">
+  <div align="center">
+    <table width="688" border="1">
+      <tbody>
+        <tr>
+          <td width="113" align="right">姓名：</td>
+          <td width="312"><input name="name" type="text" id="name" size="20" maxlength="20"></td>
+          <td width="205">*名字要用中文</td>
+        </tr>
+        <tr>
+          <td align="right">昵称：</td>
+          <td><input name="nickname" type="text" id="nickname" size="20" maxlength="20"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">性别：</td>
+          <td><select name="sex" id="sex">
+            <option>不详</option>
+            <option>男</option>
+            <option>女</option>
+          </select></td>
+          <td>*不知道就默认</td>
+        </tr>
+        <tr>
+          <td align="right">爱好：</td>
+          <td><input name="LOL1" type="checkbox" id="LOL1">
+            英雄联盟
+            <input type="checkbox" name="LOL2" id="LOL2">
+            LOL 
+            <input type="checkbox" name="LOL3" id="LOL3">
+          撸啊撸 </label></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">Q Q：</td>
+          <td><input name="QQ" type="text" id="QQ" size="20" maxlength="20"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">电话：</td>
+          <td><input name="TEL" type="text" id="TEL" size="20" maxlength="20"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">邮箱：</td>
+          <td><input name="email" type="email" id="email" size="20" maxlength="20"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">上传头像：</td>
+          <td><input type="file" name="headpic" id="headpic" size="35" maxlength="35"></td>
+          <td>*不要上传asp（你懂的）文件</td>
+        </tr>
+        <tr>
+          <td align="right">留言主题：</td>
+          <td><input name="title" type="text" id="title" size="20" maxlength="20"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">留言类别：</td>
+          <td><p>
+            <label>
+              <input type="radio" name="ly" value="单选" id="ly_0">
+              吐槽</label>
+            <br>
+            <label>
+              <input type="radio" name="ly" value="单选" id="ly_1">
+              灌水</label>
+            <br>
+            <label>
+              <input name="ly" type="radio" id="ly_2" value="单选">
+              BB</label>
+            <br>
+          </p></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">留言内容：</td>
+          <td><textarea name="content" cols="40" rows="8" id="content"></textarea></td>
+          <td>*说￥……&amp;人G&amp;(&amp;话</td>
+        </tr>
+        <tr>
+          <td colspan="3" align="right"><div align="center">
+            <input type="submit" name="submit" id="submit" value="发布留言">
+            <input type="reset" name="reset" id="reset" value="清除留言">
+          </div></td>
+        </tr>
+      </tbody>
+  </table>
+    <hr>
+    <p>华信帝国皇家软件学院&#8482; o欧阳易紫o版权所有&copy;</p>
+  </div>
+</form>
+</body>
+</html>
